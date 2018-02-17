@@ -9979,6 +9979,7 @@ address {
   overflow: hidden;
   margin-bottom: 5rem;
   height: auto;
+  box-shadow: -5px 0px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 #title-card .cover-container img {
@@ -10013,6 +10014,7 @@ address {
   letter-spacing: 2rem;
   font-weight: 100;
   line-height: 9rem;
+  border-bottom: 2px solid #dd405f;
 }
 
 #title-card .call-to-action-block .fresh-senator-subtitle {
@@ -10058,6 +10060,22 @@ address {
 
 #title-card #clock {
   margin-bottom: 20px;
+}
+
+#title-card .title-spacer {
+  height: 4em;
+}
+
+@media (min-width: 992px) {
+  #title-card .title-spacer {
+    height: 0em;
+  }
+}
+
+@media (min-width: 768px) {
+  #title-card .title-spacer {
+    height: 0em;
+  }
 }
 
 section {
@@ -10175,7 +10193,7 @@ section #clock1 {
   margin-top: 2.6rem;
   margin-bottom: 2.6rem;
   font-size: 1.9rem;
-  border-left: 1px solid #95989a;
+  border-left: 2px solid #dd405f;
   line-height: 2.5;
 }
 

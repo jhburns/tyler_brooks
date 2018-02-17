@@ -22,8 +22,8 @@ $(document).ready(() => {
   })
   // Set the date we're counting down to
   $('.vote-btn').hide()
-  let voteStart = new Date('Sep 18, 2017 00:00:00').getTime()
-  const voteEnd = new Date('Sep 20, 2017 17:00:00').getTime()
+  let voteStart = new Date('Apr 16, 2018 00:00:00').getTime()
+  const voteEnd = new Date('Apr 18, 2018 17:00:00').getTime()
   // Update the count down every 1 second
   const x = setInterval(() => {
     // Get todays date and time

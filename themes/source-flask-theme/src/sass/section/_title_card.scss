@@ -27,7 +27,7 @@
       }
     }
     height: auto;
-
+    box-shadow: -5px 0px 10px 0px rgba(0, 0, 0, 0.3);
   }
 
   .call-to-action-block{
@@ -40,6 +40,7 @@
       letter-spacing: 2rem;
       font-weight: 100;
       line-height: 9rem;
+      border-bottom: 2px solid $text-flare;
     }
 
     .fresh-senator-subtitle{
@@ -87,5 +88,16 @@
   #clock {
     margin-bottom: 20px;
   }
-}
 
+
+  .title-spacer {
+    height: 4em;
+    @include media-breakpoint-up(lg) {
+      height: 0em;
+    }
+    @include media-breakpoint-up(md) {
+      height: 0em;
+    }
+  }
+
+}

@@ -10291,6 +10291,8 @@ section #clock1 {
   color: #1b1c16;
   text-transform: uppercase;
   letter-spacing: 10px;
+  border-bottom: 1px solid #dd405f;
+  padding-bottom: 3px;
 }
 
 .features .icon {
